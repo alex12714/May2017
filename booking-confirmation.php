@@ -15,7 +15,7 @@ include 'booking-confirmation.inc.php';
                     <div class="alert alert-info text-center">
                         <div class="clearfix"></div><br/>
                         <span class="glyphicon glyphicon-ok-circle" style="color: #8CBE45;font-size: 50px;"></span>
-                        <h4 style="margin-top: 15px;"><strong>Thanks for using Airbnb.</strong></h4>
+                        <h4 style="margin-top: 15px;"><strong>Thanks for using Adventist BNB.</strong></h4>
                          <div class="clearfix"></div>
                         <h4 style="margin-top: 15px;"><strong>Dear Guest, your booking request sent successfully.</strong></h4>
                         <div class="clearfix"></div><br/>

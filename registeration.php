@@ -29,13 +29,13 @@ if ($_POST) {
 
     if ($result == 'succuss') {
 
-        $subject = "Successfully Register On:Airbnb";
+        $subject = "Registration details";
         $message = "";
         $message = "<html>
             <body>
             <table>
             <tr><td colspan='2'>Dear $name,  <br/><td></tr>
-            <tr><td colspan='2'><br/>Congratulation your account has been successfully register on Airbnb!<td></tr>
+            <tr><td colspan='2'><br/>Congratulations ! Your account has been successfully registered on Adventist BNB!<td></tr>
             <tr><td colspan='2'><br/>Login details as below:<td></tr>
             <tr><td colspan='2'>Email:$email</td></tr>
          <tr><td colspan='2'>Password:$password</td></tr>
@@ -47,21 +47,21 @@ if ($_POST) {
             </html>";
 
         $to = $email;
-        $from_name = 'Airbnb';
+        $from_name = 'Adventist BNB';
         $from = $Obj->siteadmin;
 
         $email1 = new email($from, $from_name, $to, $subject, $message);
 
 
 
-        $subject = "New Host Register On:Airbnb";
+        $subject = "New Host on Adventist BNB";
         $message = "";
         $message = "<html>
             <body>
             <table>
             <tr><td colspan='2'><br/>Dear Admin,<td></tr>
                         <tr><td colspan='2'><strong><br/></td></tr>
-                        <tr><td colspan='2'><strong>$name has been successfully register on Airbnb!</td></tr>";
+                        <tr><td colspan='2'><strong>$name has been successfully registered on Adventist BNB!</td></tr>";
 
 
         $message.="</table>
@@ -71,8 +71,8 @@ if ($_POST) {
         $to = $Obj->siteadmin;
 //        $to = "user1@sritechnocrat.com";
 
-        $from_name = "Airbnb";
-        $from = "no-reply@gmail.com";
+        $from_name = "Adventist BNB";
+        $from = "no-reply@adventistbnb.com";
 
         $email1 = new email($from, $from_name, $to, $subject, $message);
 

@@ -8,7 +8,7 @@ include_once 'session/session.php';
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-        <title>Vacation Rentals, Homes, Apartments & Rooms for Rent - Airbnb</title>
+        <title>Adventist Vacation Rentals, Homes, Apartments & Rooms for Rent - Adventist BNB</title>
 
         <link href="css/font-awesome.css" rel="stylesheet"/>
         <link href="css/fullscreen-slider.css" rel="stylesheet"/>
@@ -18,6 +18,7 @@ include_once 'session/session.php';
 
     </head>
     <body class="notransition no-hidden">
+	<?php include_once("analyticstracking.php") ?>
         <div id="hero-container">
             <ul class="cb-slideshow">
                 <li><span></span></li>
@@ -28,7 +29,7 @@ include_once 'session/session.php';
                 <li><span></span></li>
             </ul>
             <div class="home-header">
-                <div class="home-logo osLight"><span class="fa fa-home"></span> Airbnb</div>
+                <div class="home-logo osLight"><span class="fa fa-home"></span> Adventist BNB</div>
                 <a href="#" class="home-navHandler visible-xs"><span class="fa fa-bars"></span></a>
                 <?php if ($_SESSION['guest_id'] != "") { ?>
                     <div class="home-nav">
@@ -50,8 +51,8 @@ include_once 'session/session.php';
                 <?php } ?>
             </div>
             <div class="home-caption">
-                <div class="home-title">Now it's easy to find your future home</div>
-                <div class="home-subtitle">Book homes from local hosts in 191+ countries and experience a place like you live there.</div>
+                <div class="home-title">A friendly place to stay</div>
+                <div class="home-subtitle">Make friends, shine your light</div>
                 <a href="javascript:void(0)" data-toggle="modal" data-target="#signup" class="btn btn-lg btn-green">Become a Host</a>
             </div>
             <?php echo $mainpagecontent; ?>
@@ -76,20 +77,20 @@ include_once 'session/session.php';
                                 <li><a href="#">Gift Cards</a></li>
                                 <li><a href="#">Business Travel</a></li>
                                 <li><a href="#">Travel Credit</a></li>
-                                <li><a href="#">Airbnb Picks</a></li>
+                                <li><a href="#">Adventist BNB Picks</a></li>
                                 <li><a href="#">Site Map</a></li>
                             </ul>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
                             <div class="osLight footer-header">Get in Touch</div>
                             <ul class="footer-nav pb20">
-                                <li class="footer-phone"><span class="fa fa-phone"></span> 123 456 7890</li>
+                                <li class="footer-phone"><span class="fa fa-phone"></span> +44 1344 512 093</li>
                                 <li class="footer-address osLight">
-                                    <p>C - 166, Groud Floor, Sector B,</p>
-                                    <p>Aliganj, Lucknow - 226024</p>
-                                    <p>India</p>
+                                    <p>Arlington Square</p>
+                                    <p>Bracknell, Berkshire</p>
+                                    <p>United Kingdom</p>
                                 </li>
-                                <li><a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-google-plus"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> </li>
+                                <li><a href="https://www.facebook.com/adventistbnb/" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-google-plus"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> </li>
                             </ul>
                         </div>
                         <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 subscribeloader">
@@ -105,7 +106,7 @@ include_once 'session/session.php';
                             </form>
                         </div>
                     </div>
-                    <div class="copyright">&copy; 2016 Airbnb</div>
+                    <div class="copyright">&copy; 2017 Adventist BNB</div>
                 </div>
             </div>
 

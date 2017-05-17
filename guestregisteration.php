@@ -28,13 +28,13 @@ if ($_POST) {
 
     if ($result == 'succuss') {
 
-        $subject = "Successfully Register On:Airbnb";
+        $subject = "Successfully Register On:Adventist BNB";
         $message = "";
         $message = "<html>
             <body>
             <table>
             <tr><td colspan='2'>Dear $name,  <br/><td></tr>
-            <tr><td colspan='2'><br/>Congratulation your account has been successfully register on Airbnb!<td></tr>
+            <tr><td colspan='2'><br/>Congratulation your account has been successfully register on Adventist BNB!<td></tr>
             <tr><td colspan='2'><br/>Login details as below:<td></tr>
             <tr><td colspan='2'>Email:$email</td></tr>
          <tr><td colspan='2'>Password:$password</td></tr>
@@ -46,7 +46,7 @@ if ($_POST) {
             </html>";
 
         $to = $email;
-        $from_name = 'Airbnb';
+        $from_name = 'Adventist BNB';
         $from = $Obj->siteadmin;
 
         $email1 = new email($from, $from_name, $to, $subject, $message);

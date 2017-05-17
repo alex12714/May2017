@@ -47,7 +47,7 @@ if ($user_email_id != "") {
             </html>";
 
         $to = $email;
-        $from_name = 'Airbnb';
+        $from_name = 'Adventist BNB';
        $from = $Obj->siteadmin;
 
         $email1 = new email($from, $from_name, $to, $subject, $message);

@@ -11,7 +11,7 @@ ob_start();
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Admin @ Airbnb</title>
+        <title>Admin @ Adventist BNB</title>
         <!-- CSS -->
         <link href="../css/bootstrap.min.css" rel="stylesheet"/>
         <link href="../fonts/css/font-awesome.min.css" rel="stylesheet"/>
@@ -41,8 +41,8 @@ ob_start();
                         <div class="clearfix"></div>
                         <div class="separator">
                             <div>
-                                <h1>Admin @ Airbnb</h1>
-                                <p>© 2016 All Rights Reserved. Admin @ Airbnb</p>
+                                <h1>Admin @ Adventist BNB</h1>
+                                <p>© 2016 All Rights Reserved. Admin @ Adventist BNB</p>
                             </div>
                         </div>
                     </form>

@@ -7,7 +7,7 @@ include "root-master.inc.php";
         <meta charset="utf-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-        <title>Vacation Rentals, Homes, Apartments & Rooms for Rent - Airbnb</title>
+        <title>Vacation Rentals, Homes, Apartments & Rooms for Rent - Adventist BNB</title>
 
         <link href="css/font-awesome.css" rel="stylesheet"/>
         <link href="css/fullscreen-slider.css" rel="stylesheet"/>
@@ -58,7 +58,7 @@ include "root-master.inc.php";
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="index.php"><span class="fa fa-home text-success"></span> <span class="text-warning">Airbnb</span></a>
+                                <a class="navbar-brand" href="index.php"><span class="fa fa-home text-success"></span> <span class="text-warning">Adventist BNB</span></a>
                             </div>
  <?php if ($_SESSION['guest_id'] != "") { ?>
                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -89,7 +89,7 @@ include "root-master.inc.php";
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand" href="index.php" style="padding: 10px 15px;"><span class="fa fa-home"></span> Airbnb</a>
+                                <a class="navbar-brand" href="index.php" style="padding: 10px 15px;"><span class="fa fa-home"></span> Adventist BNB</a>
                             </div>
                             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
                                 <ul class="nav navbar-nav navbar-right">
@@ -142,7 +142,7 @@ include "root-master.inc.php";
                             <li><a href="#">Gift Cards</a></li>
                             <li><a href="#">Business Travel</a></li>
                             <li><a href="#">Travel Credit</a></li>
-                            <li><a href="#">Airbnb Picks</a></li>
+                            <li><a href="#">Adventist BNB Picks</a></li>
                             <li><a href="#">Site Map</a></li>
                         </ul>
                     </div>
@@ -155,7 +155,7 @@ include "root-master.inc.php";
                                 <p>Aliganj, Lucknow - 226024</p>
                                 <p>India</p>
                             </li>
-                            <li><a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-google-plus"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> </li>
+                            <li><a href="https://www.facebook.com/adventistbnb/" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-facebook"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-twitter"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-google-plus"></span></a> <a href="#" class="btn btn-sm btn-icon btn-round btn-o btn-white"><span class="fa fa-linkedin"></span></a> </li>
                         </ul>
                     </div>
                     <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 subscribeloader">
@@ -171,7 +171,7 @@ include "root-master.inc.php";
                             </form>
                     </div>
                 </div>
-                <div class="copyright">&copy; 2016 Airbnb</div>
+                <div class="copyright">&copy; 2016 Adventist BNB</div>
             </div>
         </div>
         <div class="modal fade" id="signin" role="dialog" aria-labelledby="signinLabel" aria-hidden="true">

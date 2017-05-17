@@ -64,28 +64,28 @@ include 'index.inc.php';
 </div>
 </div>
 <div class="highlight">
-    <div class="h-title osLight">Find your new place with Airbnb</div>
-    <div class="h-text osLight">Fusce risus metus, placerat in consectetur eu, porttitor a est sed sed dolor lorem cras adipiscing</div>
+    <div class="h-title osLight">Find a place to stay with Adventist BNB</div>
+    <div class="h-text osLight">Our goal is to connect Adventists all around the world</div>
 </div>
 
 <!-- Content -->
 
 <div class="home-wrapper">
     <div class="home-content">
-        <h2 class="osLight"><strong>Why Airbnb</strong></h2>
+        <h2 class="osLight"><strong>Come, stay with us</strong></h2>
         <div class="row pb40">
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">
                 <i class="fa fa-hotel s-icon"></i>
                 <div class="s-content">
-                    <h2 class="s-main osLight" style="padding-bottom: 0px">135,000+ Hotels</h2>
-                    <h3 class="s-sub osLight top-zero">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
+                    <h2 class="s-main osLight" style="padding-bottom: 0px">Better than Hotels</h2>
+                    <h3 class="s-sub osLight top-zero">Local people would like to welcome you in their homes </h3>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">
                 <i class="fa fa-check-square-o s-icon"></i>
                 <div class="s-content">
-                    <h2 class="s-main osLight" style="padding-bottom: 0px">Low Rates &amp; Top Savings</h2>
-                    <h3 class="s-sub osLight top-zero">Nulla convallis egestas rhoncus consectetur adipiscing elit</h3>
+                    <h2 class="s-main osLight" style="padding-bottom: 0px">Accomodation and Experiences</h2>
+                    <h3 class="s-sub osLight top-zero">Participate and get to know your adventist community better</h3>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 s-menu-item">

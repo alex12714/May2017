@@ -40,7 +40,7 @@ include 'profile.inc.php';
                                                 <label class="col-sm-4 control-label">Last Name</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" placeholder="Last Name" name="last_name" id="last_name" value="<?php echo $last_name; ?>"/>
-                                                    This is only shared once you have a confirmed booking with another Airbnb user.
+                                                    This is only shared once you have a confirmed booking with another Adventist BNB user.
                                                 </div>
                                             </div>
                                             <div class="form-group">
@@ -71,7 +71,7 @@ include 'profile.inc.php';
                                                 <label class="col-sm-4 control-label">Date of Birth</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="datepicker form-control" placeholder="Date of Birth" name="dob" id="dob" value="<?php echo $dob; ?>"/>
-                                                    This is only shared once you have a confirmed booking with another Airbnb user.
+                                                    This is only shared once you have a confirmed booking with another Adventist BNB user.
                                                 </div>
                                             </div>                                            
                                         </div>
@@ -81,7 +81,7 @@ include 'profile.inc.php';
                                                 <label class="col-sm-4 control-label">Email Address</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" placeholder="Email Address" name="email" id="email" value="<?php echo $email; ?>"/>
-                                                    We won’t share your private email address with other Airbnb users.
+                                                    We won’t share your private email address with other Adventist BNB users.
                                                     <br/><span class="text-danger"><?php echo $error_msg['email']; ?></span>
                                                 </div>
                                             </div>
@@ -89,14 +89,14 @@ include 'profile.inc.php';
                                                 <label class="col-sm-4 control-label">Phone Number</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" placeholder="Phone Number" name="phone_number" id="phone_number" value="<?php echo $phone_number; ?>"/>
-                                                    This is only shared once you have a confirmed booking with another Airbnb user. This is how we can all get in touch.
+                                                    This is only shared once you have a confirmed booking with another Adventist BNB user. This is how we can all get in touch.
                                                 </div>
                                             </div>
                                             <div class="form-group">
                                                 <label class="col-sm-4 control-label">Alternate Number</label>
                                                 <div class="col-sm-8">
                                                     <input type="text" class="form-control" placeholder="AlternatePhone Number" name="alternate_number" id="alternate_number" value="<?php echo $alternate_number; ?>"/>
-                                                    This is only shared once you have a confirmed booking with another Airbnb user. This is how we can all get in touch.
+                                                    This is only shared once you have a confirmed booking with another Adventist BNB user. This is how we can all get in touch.
                                                 </div>
                                             </div>
 
@@ -115,9 +115,9 @@ include 'profile.inc.php';
                                                 <label class="col-sm-2 control-label">Describe Yourself</label>
                                                 <div class="col-sm-10">
                                                     <textarea class="form-control" rows="3" name="description" id="description" placeholder="Describe Yourself"><?php echo $description; ?></textarea>
-                                                    <p>Airbnb is built on relationships. Help other people get to know you.</p>
+                                                    <p>Adventist BNB is built on relationships. Help other people get to know you.</p>
                                                     <p>Tell them about the things you like: What are 5 things you can’t live without? Share your favorite travel destinations, books, movies, shows, music, food.</p>
-                                                    <p>Tell them what it’s like to have you as a guest or host: What’s your style of traveling? Of Airbnb hosting?</p>
+                                                    <p>Tell them what it’s like to have you as a guest or host: What’s your style of traveling? Of Adventist BNB hosting?</p>
                                                     <p>Tell them about you: Do you have a life motto?</p>
                                                 </div>
                                             </div>
