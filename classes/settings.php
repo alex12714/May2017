@@ -8,13 +8,13 @@ date_default_timezone_set("Asia/Kolkata");
 class class_settings {
     /*     * *******database connection****** */
 
-    public $dbserver = "localhost"; //'localhost';//
-    public $dbname = "airbnb"; //' aldridgefamily_db';//
-    public $dbuser = "airbnb"; //'root';//
-    public $dbpassword = "Monday123"; //'root';//
+    public $dbserver = "us-cdbr-iron-east-03.cleardb.net"; //'localhost';//
+    public $dbname = "heroku_da1971818adbbc2"; //' aldridgefamily_db';//
+    public $dbuser = "be51e68d3ef796"; //'root';//
+    public $dbpassword = "3b84d624"; //'root';//
     public $connect = null;
     public $db = null;
-    public $siteurl = 'airbnb.lanos.co.uk';
+    public $siteurl = 'sheltered-plains-20417.herokuapp.com';
     public $siteadmin = "user2@sritechnocrat.com";
    
      
