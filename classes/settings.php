@@ -14,7 +14,7 @@ class class_settings {
     public $dbpassword = "3b84d624"; //'root';//
     public $connect = null;
     public $db = null;
-    public $siteurl = 'sheltered-plains-20417.herokuapp.com';
+    public $siteurl = 'adventistbnb.herokuapp.com';
     public $siteadmin = "user2@sritechnocrat.com";
    
      
